@@ -38,7 +38,7 @@ git push origin main
 
 ```
 
-✅ Done!
+###✅ Done!
 You’ve now removed the sensitive file from your Git repo and protected it from future commits. 🛡️
 
 ```
