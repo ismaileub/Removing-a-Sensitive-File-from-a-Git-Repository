@@ -13,7 +13,8 @@ Sometimes sensitive files like `.env` may accidentally get pushed to a public or
 ### ✅ Step 1: Untrack the file (without deleting it locally)
 
 ```bash
-git rm --cached .env
+git rm --cached .env  for .env
+git rm -r --cached dist for dist
 ```
 
 ### ✅ Step 2: Commit the change
